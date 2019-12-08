@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity implements ExampleAdapter.On
     public static final String EXTRA_MOV = "movieName";
     public static final String EXTRA_DETAIL = "detail";
     public static final String EXTRA_RATING = "rating";
-
     private RecyclerView mRecyclerView;
     private ExampleAdapter mExampleAdapter;
     private ArrayList<ExampleItem> mExampleList;

@@ -4,6 +4,7 @@ public class ExampleItem {
     private String mImageUrl;
     private String mName;
     private String mDetail;
+
     private int mRating;
 
     public ExampleItem(String imageUrl, String name, int rating, String detail) {
@@ -28,4 +29,5 @@ public class ExampleItem {
     public int getRating() {
         return mRating;
     }
+
 }
