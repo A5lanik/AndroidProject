@@ -18,15 +18,11 @@ public class fragmentone extends Fragment {
 
         View view= inflater.inflate(R.layout.fragment_fragmentone, container, false);
         textView=view.findViewById(R.id.text);
-        textView.setText("Movies,  are a type of visual communication \n" +
-                "which uses moving pictures and soundto tell \n" +
-                "stories or teach peoplesomething.People in \n" +
-                "every part of the world watch movies as a \n" +
-                "type of entertainment,a way to have fun. \n" +
-                "For some people,fun movies can mean movies\n" +
-                "that make them laugh,while for others it \n" +
-                "can mean movies that make them cry, or feel\n" +
-                "afraid. ");
+        textView.setText("Movies,  are a type of visual communication which uses moving pictures and sound to\n" +
+                "tell stories or teach peoplesomething.People in every part of the world watch \n" +
+                "movies as a type of entertainment,a way to have fun. For some people,fun movies can\n" +
+                "mean movies that make them laugh,while for others it can mean movies that make \n" +
+                "them cry, or feel afraid. ");
         return view;
     }
 
